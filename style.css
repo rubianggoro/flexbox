@@ -1,0 +1,154 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    border-bottom: 2px solid rgb(166, 202, 35);
+    padding: 15px 0 15px 0;
+    background-color: rgb(182, 245, 81);
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgb(109, 108, 108);
+}
+
+a:hover {
+    background-color: rgb(68, 134, 1);
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+/* Akhir Navbar */
+
+
+.container {
+    display: flex;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.section-one {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    color: rgb(109, 108, 108);
+    
+}
+
+img {
+    max-width: 350px;
+    margin: 0 50px 0 50px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        display: inline;
+        text-align: center;
+    }
+    img {
+        margin-top: 30px;
+    }
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.section-two {
+    text-align: center;
+    margin: 0 50px 0 50px;
+    color: rgb(109, 108, 108);
+}
+
+@media (max-width: 900px) {
+    .container-two {
+        display: inline;
+        text-align: center;
+    }
+
+    .section-two {
+        margin-top: 30px;
+    }
+}
+
+.about,
+.contact{
+    text-align: center;
+    color: rgb(109, 108, 108);
+}
+
+.container-three {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.about-items {
+    text-align: center;
+    margin: 0 30px 0 30px;
+    padding: 0 30px 30px 30px;
+    border: 1px solid rgb(139, 160, 64);
+    border-radius: 10px;
+    color: rgb(109, 108, 108);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 900px) {
+    .container-three {
+        display: inline;
+    }
+
+    .about {
+        margin-top: 60px;
+    }
+
+    .about-items {
+        padding: 0 30px 30px 30px;
+        margin-top: 50px;
+    }
+}
+
+.contact {
+    margin-top: 30px;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile {
+    padding: 0 20px 20px 0;
+    color: rgb(109, 108, 108);
+    border: 1px solid rgb(139, 160, 64);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.profile ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(182, 245, 81);
+}
+
+.copyright {
+    padding-top: 30px;
+    color: rgb(109, 108, 108);
+}
